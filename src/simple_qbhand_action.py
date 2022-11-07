@@ -37,7 +37,7 @@ if __name__ == '__main__':
         # open or close
         mode = 'open' 
         # total time to execute
-        duration = 20 
+        duration = 5
 
     rospy.init_node('qb_hand_tester')
     jta = actionlib.SimpleActionClient('/qbhand1/control/qbhand1_synergy_trajectory_controller/follow_joint_trajectory', FollowJointTrajectoryAction)
